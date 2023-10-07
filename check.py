@@ -56,17 +56,6 @@ class Proxy:
            except:
                pass
        self._thread_count-=1
-
-def _usage():
-   print """(c) h1z, http://www.mr-h1z.com
-Usage:
- ./check.py [options]
-Options:
- --file - path to file[default: proxy.txt]
- --count - count of threads[default: 10]
- --urls - file inside urls[default: false]
- --out - file to output[default: stdout]
- --timeout - set timeout[default: 80]"""
    sys.exit(1)
 
 def _add_to_list(text):
